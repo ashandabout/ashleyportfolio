@@ -1,0 +1,20 @@
+.column {
+  width: 500px;
+  float: right;
+}
+.my-class {
+  margin: 12px;
+  width: 400px;
+  border: 5px solid hotpink;
+  padding: 13px;
+  background-color: yellow;
+}
+.flex-container {
+  flex-direction: row;
+  display: flex;
+}
+
+.flex-column img {
+  margin: 0px
+  float: center
+}
