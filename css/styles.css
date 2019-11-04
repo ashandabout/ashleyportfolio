@@ -18,3 +18,30 @@
   margin: 0px
   float: center
 }
+body {
+  font-family: sans-serif;
+  font-size: 14 px;
+}
+
+.important {
+  color: purple;
+}
+.unimportant {
+  color: blue
+}
+.column {
+  width: 500px;
+  float: right;
+}
+.flex-container {
+  flex-direction: row;
+  display: flex;
+}
+.flex-container  img {
+margin: 0px;
+}
+
+.flex-column img {
+  margin: 0px
+  float: center
+}
