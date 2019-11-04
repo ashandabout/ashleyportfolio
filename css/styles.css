@@ -7,8 +7,26 @@
   width: 400px;
   border: 5px solid hotpink;
   padding: 13px;
-  background-color: white;
+  background-color: lightblue;
 
+}
+.flex-item2 {
+  margin: 12px;
+  width: 400px;
+  height: 500px;
+  border: 5px solid hotpink;
+  padding: 13px;
+  background-color: yellow;
+}
+
+}
+.flex-item3 {
+  margin: 12px;
+  width: 400px;
+  height: 500px;
+  border: 5px solid hotpink;
+  padding: 13px;
+  background-color: teal;
 }
 
 .flex-container {
