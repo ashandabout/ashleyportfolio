@@ -7,7 +7,7 @@
   width: 400px;
   border: 5px solid hotpink;
   padding: 13px;
-  background-color: yellow;
+  background-color: white;
 }
 .flex-container {
   flex-direction: row;
@@ -24,7 +24,7 @@ body {
 }
 
 .important {
-  color: purple;
+  color: teal;
 }
 .unimportant {
   color: blue
@@ -48,4 +48,18 @@ margin: 0px;
 .header2 {
   font-family: Helvetica;
   font-size: 20px
+}
+  .header3 {
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 20px
+}
+
+#project {
+  color: black;
+  font-size: 60px;
+  font-family: fantasy;
+}
+
+.column1,.column2,.column3 { padding-right: 64px
 }
