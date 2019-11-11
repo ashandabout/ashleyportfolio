@@ -83,3 +83,6 @@ header4 {
 .btn-primary, .btn-primary:active, .btn-primary:visited {
     background-color:
 }
+.blockquote {
+  border-left-color: #pink;
+}
