@@ -1,6 +1,6 @@
 .column {
-  width: 500px;
-  float: right;
+  width: 200px;
+  display: flex;
 }
 .flex-item2 {
   margin: 12px;
@@ -19,9 +19,10 @@
 }
 
 .flex-column {
-  margin: 0px
+  margin: 5px
   float: center
 }
+
 body {
   font-family: Helvetica;
   font-size: 16 px;
@@ -33,10 +34,7 @@ body {
 .unimportant {
   color: blue
 }
-.column {
-  width: 500px;
-  float: right;
-}
+
 .flex-container {
   flex-direction: row;
   display: flex;
@@ -46,7 +44,7 @@ margin: 0px;
 }
 
 .flex-column img {
-  margin: 0px
+  margin: 5px
   float: center
 }
 .header2 {
@@ -60,9 +58,9 @@ margin: 0px;
     font-size: 70px;
 }
 header4 {
-  font-family: cursive;
+  font-family: courier;
   font-style: italic;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .paragraph {
@@ -71,21 +69,36 @@ header4 {
   font-size: 14px
 }
 
-#project {
-  color: black;
-  font-size: 60px;
-  font-family: fantasy;
-}
-
-.column1,.column2,.column3 { padding-right: 64px
-}
-
 .btn-primary, .btn-primary:active, .btn-primary:visited {
-    background-color:
+    background-color: black
 }
 .blockquote {
   border-left-color: #pink;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+}
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 20px;
+  grid-column-gap:50px
+  padding: 100px;
+}
+.grid-item {
+  background-color: cream;
+  border: 10px solid black(0, 0, 0, 0.8);
+  padding: 50px;
+  font-size: 15px;
+  text-align: center;
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: flex;
+  padding: 10px;
+  height: 300px;
 }
